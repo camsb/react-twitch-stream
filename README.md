@@ -7,7 +7,7 @@ $ npm install --save react-twitch-stream
 ### Usage
 Since this component always maintains a 16:9 aspect ratio, it's overall screen size is determined by the width of its parent div. To use this component best, set the parent div's width as you wish, and leave the height set to auto. An example can be seen below:
 
-```sh
+```js
 import React from 'react';
 import { TwitchStream } from 'react-twitch-stream';
 
