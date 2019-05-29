@@ -26,5 +26,9 @@ const App: React.FC = () => {
 export default App;
 
 ```
+### Github
+https://github.com/camsb/react-twitch-stream
+### NPM
+https://www.npmjs.com/package/react-twitch-stream
 ### License
 MIT
