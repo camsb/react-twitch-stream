@@ -9,10 +9,11 @@ Since this component always maintains a 16:9 aspect ratio, it's overall screen s
 
 ```js
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { TwitchStream } from 'react-twitch-stream';
 
 const style: React.CSSProperties = {
-  width: '30%'
+  width: '50%'
 };
 
 const App: React.FC = () => {
@@ -23,7 +24,7 @@ const App: React.FC = () => {
   );
 }
 
-export default App;
+ReactDOM.render(<App />, document.getElementById('root'));
 
 ```
 ### Github
