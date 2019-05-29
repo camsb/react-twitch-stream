@@ -1,12 +1,11 @@
 {
   "name": "react-twitch-stream",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A responsive React component used to display a Twitch stream. Simple to use and maintains the expected 16:9 aspect ratio.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./lib && tsc && cp LICENSE README.md package.json ./dist",
-    "prepare": "yarn build"
+    "build": "rm -rf ./dist && tsc && cp LICENSE README.md package.json ./dist"
   },
   "keywords": ["twitch", "stream", "iframe", "responsive", "aspect ratio", "embeddable", "react", "typescript"],
   "author": "Cameron McCarthy",
