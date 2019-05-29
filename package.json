@@ -1,6 +1,6 @@
 {
   "name": "react-twitch-stream",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A responsive React component used to display a Twitch stream. Simple to use and maintains the expected 16:9 aspect ratio.",
   "main": "index.js",
   "scripts": {
